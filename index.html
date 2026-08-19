@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>모아쿡레시피 | 냉장고 남은 재료 맞춤형 레시피 실시간 검색</title>
+  <meta name="description" content="냉장고에 있는 남은 식재료를 선택해 만들 수 있는 요리를 바로 찾아보세요. 혼밥족과 자취생을 위한 1인분 맞춤 계량과 쉬운 요리법을 모아쿡레시피(MoaCook)에서 추천해 드립니다.">
+  <meta name="keywords" content="냉장고 털기, 레시피 검색, 재료 맞춤 레시피, 집밥 요리, 1인분 레시피, 반찬 만들기, 모아쿡레시피, MoaCook, 오늘뭐먹지, 냉장고 파먹기">
+  <link rel="canonical" href="https://moacook.com">
+  
+  <!-- Open Graph / Facebook / Naver / Kakao -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://moacook.com">
+  <meta property="og:title" content="모아쿡레시피 | 냉장고 재료 맞춤 레시피 검색기">
+  <meta property="og:description" content="남은 재료 선택으로 오늘 요리 완성! 혼밥족과 자취생을 위한 1인분 맞춤 계량과 친절한 레시피를 실시간으로 확인해 보세요.">
+  <meta property="og:image" content="https://moacook.com/assets/logo_og.png">
+  
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://moacook.com">
+  <meta name="twitter:title" content="모아쿡레시피 | 냉장고 재료 맞춤 레시피 검색기">
+  <meta name="twitter:description" content="남은 재료 선택으로 오늘 요리 완성! 혼밥족과 자취생을 위한 1인분 맞춤 계량과 친절한 레시피를 실시간으로 확인해 보세요.">
+  <meta name="twitter:image" content="https://moacook.com/assets/logo_og.png">
+
+  <!-- Search Engine Webmaster Verification (Placeholders) -->
+  <meta name="naver-site-verification" content="네이버웹마스터도구에서 발급받은 인증키를 입력하세요">
+  <meta name="google-site-verification" content="구글서치콘솔에서 발급받은 인증키를 입력하세요">
+
+  <!-- JSON-LD Structured Data for Google Rich Snippets -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "모아쿡레시피",
+    "alternateName": "MoaCook",
+    "url": "https://moacook.com",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://moacook.com/?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    },
+    "description": "냉장고 속 남은 재료를 조합해 실시간으로 꼭 맞는 요리 레시피를 매치해주는 간편 검색 서비스입니다."
+  }
+  </script>
+  
+  <!-- Google Fonts: Outfit (Headings) & Plus Jakarta Sans (Body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;1,400&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+  
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Google AdSense SDK (Replace client ID ca-pub-XXXXXXXXXXXXXXXX with your own to activate) -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- Ambient background blobs for modern premium blur effect -->
+  <div class="bg-blob blob-1" aria-hidden="true"></div>
+  <div class="bg-blob blob-2" aria-hidden="true"></div>
+
+  <div class="app-container">
+    <!-- Header Section -->
+    <header class="app-header" id="main-header">
+      <div class="header-logo">
+        <svg class="logo-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 3c-2.42 0-4.48 1.6-5.18 3.82a3.5 3.5 0 0 0-.6 6.88c.45.18.78.58.78 1.07V16c0 1.1.9 2 2 2h6c1.1 0 2-.9 2-2v-1.23c0-.49.33-.89.78-1.07a3.5 3.5 0 0 0-.6-6.88C16.48 4.6 14.42 3 12 3zm-4 16v1c0 .55.45 1 1 1h6c.55 0 1-.45 1-1v-1H8z" fill="currentColor"/>
+          <path d="M8 15h8v2H8z" fill="currentColor" opacity="0.3"/>
+        </svg>
+        <span class="logo-text">모아쿡레시피 <small>MoaCook</small></span>
+      </div>
+      <h1 class="header-title">냉장고 털기 레시피 검색</h1>
+      <p class="header-subtitle">선택하신 재료가 <strong>모두 포함된</strong> 맛있는 레시피를 실시간으로 추천해 드립니다.</p>
+    </header>
+
+    <!-- Top Advertisement Banner (Google AdSense Compatible) -->
+    <div class="ad-banner-top" id="ad-top-banner">
+      <div class="adsense-placeholder-inner">
+        <span class="ad-badge">AD</span>
+        <span class="adsense-text">Google AdSense 광고 영역 (가로형 반응형 배너)</span>
+        <span class="adsense-tip">실제 운영 시 아래 ins 태그의 data-ad-client, data-ad-slot 값을 변경하세요.</span>
+      </div>
+      <!-- AdSense Unit Code -->
+      <ins class="adsbygoogle"
+           style="display:block"
+           data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+           data-ad-slot="1234567890"
+           data-ad-format="auto"
+           data-full-width-responsive="true"></ins>
+      <script>
+           (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    </div>
+
+    <!-- Main Workspace Layout -->
+    <main class="main-content" id="app-main">
+      
+      <!-- Left Panel: Ingredient Selection (Pills Board) -->
+      <section class="filter-panel" id="ingredients-panel" aria-label="재료 선택 필터">
+        <div class="panel-header">
+          <h2 class="panel-title">재료 선택하기</h2>
+          <div class="panel-header-actions">
+            <button type="button" class="btn-clear-all" id="btn-clear-all" title="선택 초기화" aria-label="모든 재료 선택 해제">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/></svg>
+              초기화
+            </button>
+            <!-- Mobile Drawer Close (Down Arrow) Button -->
+            <button type="button" class="btn-close-filter-mobile" id="btn-close-filter-mobile" aria-label="필터 접기">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <!-- Ingredient search bar -->
+        <div class="search-box">
+          <svg class="search-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+          <input type="text" id="ingredient-search-input" placeholder="재료 이름 검색..." aria-label="재료 빠른 검색">
+        </div>
+
+        <!-- Ingredient Categories List (Populated by JS) -->
+        <div class="categories-container" id="categories-container">
+          <!-- Dynamically populated categories -->
+          <div class="skeleton-categories">
+            <div class="skeleton-category"></div>
+            <div class="skeleton-category"></div>
+            <div class="skeleton-category"></div>
+          </div>
+        </div>
+
+        <!-- Sidebar Advertisement Banner (Google AdSense Compatible) -->
+        <div class="ad-banner-sidebar">
+          <div class="adsense-placeholder-inner">
+            <span class="ad-badge">AD</span>
+            <span class="adsense-text">Google AdSense 광고 영역<br>(세로형 반응형 배너)</span>
+            <span class="adsense-tip">ca-pub-XXXXXXXXXXXXXXXX / 0987654321</span>
+          </div>
+          <!-- AdSense Unit Code -->
+          <ins class="adsbygoogle"
+               style="display:block"
+               data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+               data-ad-slot="0987654321"
+               data-ad-format="auto"
+               data-full-width-responsive="true"></ins>
+          <script>
+               (adsbygoogle = window.adsbygoogle || []).push({});
+          </script>
+        </div>
+      </section>
+
+      <!-- Right Panel: Recipe Search Results -->
+      <section class="results-panel" id="results-panel" aria-label="레시피 검색 결과">
+        
+        <!-- Active Filter Indicator Bar -->
+        <div class="active-filters-bar" id="active-filters-bar">
+          <div class="active-filters-summary">
+            <span class="active-count-badge" id="active-count-badge">0</span>
+            <span class="summary-text" id="active-summary-text">선택된 재료가 없습니다. 아래에서 재료를 골라보세요!</span>
+          </div>
+          <div class="active-pills-list" id="active-pills-list">
+            <!-- Dynamic active pills list -->
+          </div>
+        </div>
+
+        <!-- Recipe Results Header -->
+        <div class="results-header">
+          <h2 class="results-title">
+            추천 레시피 
+            <span class="recipe-count-badge" id="recipe-count-badge">0</span>
+          </h2>
+        </div>
+
+        <!-- Recipes Grid (Populated by JS) -->
+        <div class="recipes-grid" id="recipes-grid">
+          <!-- Dynamically populated recipe cards -->
+        </div>
+
+        <!-- Empty State Container (Hidden by default) -->
+        <div class="empty-state-container" id="empty-state" style="display: none;">
+          <div class="empty-illustration">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/>
+              <circle cx="12" cy="12" r="4"/>
+            </svg>
+          </div>
+          <h3 class="empty-title">선택한 재료를 모두 포함하는 레시피가 없습니다</h3>
+          <p class="empty-subtitle">재료 조합을 변경하거나, 다른 대체 재료를 선택해보세요.</p>
+          
+          <!-- Recommendation / Partial Match recipes -->
+          <div class="partial-matches-section" id="partial-matches-section" style="display: none;">
+            <h4 class="partial-title">💡 이 재료들이 포함된 다른 추천 요리는 어떠세요?</h4>
+            <div class="recipes-grid partial-grid" id="partial-recipes-grid">
+              <!-- Dynamically populated alternative cards -->
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+    </main>
+
+    <!-- SEO Introduction / About Section -->
+    <section class="about-section" id="about-section">
+      <div class="about-content">
+        <h2>냉장고 속 남은 재료로 만드는 간편한 한 끼, 모아쿡레시피(MoaCook)</h2>
+        <p>
+          <strong>모아쿡레시피(MoaCook)</strong>는 냉장고 파먹기를 고민하는 자취생부터 매일 저녁 '오늘 뭐 먹지?'를 고민하는 직장인, 요리 초보자까지 누구나 쉽게 쓸 수 있는 <strong>냉장고 재료 맞춤형 레시피 검색기</strong>입니다. 
+          지금 우리 집 냉장고에 있는 남은 식재료를 톡톡 선택하기만 하면, 선택한 재료들이 빠짐없이 들어간 어울리는 요리법들을 실시간으로 모아서 추천해 줍니다.
+        </p>
+        <p>
+          혼자 먹기 딱 좋은 1인분 분량에 맞춰 숟가락이나 종이컵처럼 구하기 쉬운 도구로도 간편히 계량할 수 있게 적어 두었으며, 누구나 따라 하기 쉽도록 직관적이고 친절한 조리 순서를 정리했습니다. 
+          상해서 버려지는 아까운 식재료 없이, 모아쿡레시피와 함께 매일 알뜰하고 맛있는 집밥을 요리해 보세요!
+        </p>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="app-footer">
+      <p>&copy; 2026 모아쿡레시피(MoaCook). All rights reserved.</p>
+    </footer>
+  </div>
+
+  <!-- Recipe Detail Modal (Overlay) -->
+  <div class="modal-overlay" id="recipe-modal" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="modal-card">
+      <button type="button" class="modal-close-btn" id="modal-close-btn" aria-label="상세보기 닫기">
+        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+      </button>
+      <div class="modal-body" id="modal-body-content">
+        <!-- Dynamically injected recipe details -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Mobile Filter Drawer Overlay -->
+  <div class="filter-overlay" id="filter-overlay" aria-hidden="true"></div>
+
+  <!-- Sticky Mobile Filter Trigger Bar -->
+  <div class="mobile-filter-trigger-bar">
+    <button type="button" class="btn-mobile-filter" id="btn-mobile-filter" aria-label="필터 패널 열기">
+      <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="18 15 12 9 6 15"></polyline>
+      </svg>
+      재료 필터 선택하기 <span class="filter-count-badge" id="mobile-filter-count">0</span>
+    </button>
+  </div>
+
+  <!-- JavaScript Files -->
+  <script src="recipes.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
